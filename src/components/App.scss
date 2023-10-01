@@ -1,4 +1,6 @@
-$main-white: white;
+$main-white: #F5F5F5;
+$main-black: #2B283A;
+$main-orange: #F47D27;
 
 
 * {
@@ -17,6 +19,7 @@ html {
 }
 
 body {
+  font-family: "Inter", sans-serif;
   width: 100vw;
   min-height: 100vh;
   background-image: url(./images/bg.jpg);
@@ -27,17 +30,39 @@ body {
 
 .App {
   width: 30vw;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: $main-white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 2rem auto 0 auto;
+  border-radius: 10px;
 }
 
 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .profile-photo {
     width: 30vw;
+    border-radius: 10px;
+  }
+
+  h3 {
+    font-size: 1.625rem;
+    font-weight: 700;
+    color: $main-black;
+  }
+
+  .job-title {
+    color: $main-orange;
+    font-size: 0.875rem;
+  }
+
+  p>a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: $main-black;
   }
 }
