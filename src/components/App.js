@@ -1,9 +1,10 @@
 import './App.css';
+import Info from "./Info.js"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, this is a new React App</h1>
+      < Info />
     </div>
   );
 }
