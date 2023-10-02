@@ -55,4 +55,24 @@ body {
   text-decoration: none;
   font-size: 0.75rem;
   color: #2B283A;
+}
+.info .contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.info .contact .email-btn {
+  background-color: #F5F5F5;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #2B283A;
+  margin-right: 10px;
+}
+.info .contact .email-btn .email-icon {
+  margin-right: 0.5rem;
+}
+.info .contact .email-btn a {
+  text-decoration: none;
+  color: #374151;
 }/*# sourceMappingURL=App.css.map */

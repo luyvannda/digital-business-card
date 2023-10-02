@@ -1,6 +1,7 @@
 $main-white: #F5F5F5;
 $main-black: #2B283A;
 $main-orange: #F47D27;
+$email-color: #374151;
 
 
 * {
@@ -65,4 +66,31 @@ body {
     font-size: 0.75rem;
     color: $main-black;
   }
+
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+
+    .email-btn {
+
+      background-color: $main-white;
+      border: none;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      border-radius: 5px;
+      border: 1px solid $main-black;
+      margin-right: 10px;
+
+      .email-icon {
+        margin-right: 0.5rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: $email-color;
+      }
+
+    }
+  }
+
 }
