@@ -34,11 +34,10 @@ body::before {
 
 .App {
   width: 20rem;
-  min-height: 90vh;
   background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
-  margin: 2rem auto 0 auto;
+  margin: 3rem auto 0 auto;
   border-radius: 10px;
 }
 
@@ -69,14 +68,14 @@ body::before {
 .info .contact {
   display: flex;
   justify-content: space-around;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 .info .contact .email-btn {
   background-color: #F5F5F5;
   border: none;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  border-radius: 5px;
-  border: 1px solid #2B283A;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #2B283A;
   margin-right: 10px;
 }
 .info .contact .email-btn .email-icon {
@@ -85,4 +84,23 @@ body::before {
 .info .contact .email-btn a {
   text-decoration: none;
   color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.info .contact .linkedin-btn {
+  background-color: #3464e8;
+  border: none;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #3464e8;
+  margin-left: 10px;
+}
+.info .contact .linkedin-btn .linkedin-icon {
+  margin-right: 0.5rem;
+}
+.info .contact .linkedin-btn a {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 0.875rem;
+  font-weight: 500;
 }/*# sourceMappingURL=App.css.map */

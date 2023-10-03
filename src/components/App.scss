@@ -2,6 +2,7 @@ $main-white: #F5F5F5;
 $main-black: #2B283A;
 $main-orange: #F47D27;
 $email-color: #374151;
+$main-blue: #3464e8;
 
 
 * {
@@ -47,11 +48,10 @@ body {
 
 .App {
   width: 20rem;
-  min-height: 90vh;
   background-color: $main-white;
   display: flex;
   flex-direction: column;
-  margin: 2rem auto 0 auto;
+  margin: 3rem auto 0 auto;
   border-radius: 10px;
 }
 
@@ -86,16 +86,17 @@ body {
   .contact {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin: 1rem 0;
 
     .email-btn {
-
       background-color: $main-white;
       border: none;
-      padding: 0.5rem 1rem 0.5rem 1rem;
-      border-radius: 5px;
-      border: 1px solid $main-black;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      border-radius: 10px;
+      border: 2px solid $main-black;
       margin-right: 10px;
+
+      &::before {}
 
       .email-icon {
         margin-right: 0.5rem;
@@ -104,8 +105,30 @@ body {
       a {
         text-decoration: none;
         color: $email-color;
+        font-size: 0.875rem;
+        font-weight: 500;
       }
 
+    }
+
+    .linkedin-btn {
+      background-color: $main-blue;
+      border: none;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      border-radius: 10px;
+      border: 2px solid $main-blue;
+      margin-left: 10px;
+
+      .linkedin-icon {
+        margin-right: 0.5rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: $main-white;
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
     }
   }
 
