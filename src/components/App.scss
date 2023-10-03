@@ -46,7 +46,7 @@ body {
 }
 
 .App {
-  width: 30vw;
+  width: 20rem;
   min-height: 90vh;
   background-color: $main-white;
   display: flex;
@@ -61,8 +61,9 @@ body {
   align-items: center;
 
   .profile-photo {
-    width: 30vw;
-    border-radius: 10px;
+    width: 20rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
 
   h3 {

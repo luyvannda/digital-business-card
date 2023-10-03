@@ -33,7 +33,7 @@ body::before {
 }
 
 .App {
-  width: 30vw;
+  width: 20rem;
   min-height: 90vh;
   background-color: #F5F5F5;
   display: flex;
@@ -48,8 +48,9 @@ body::before {
   align-items: center;
 }
 .info .profile-photo {
-  width: 30vw;
-  border-radius: 10px;
+  width: 20rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .info h3 {
   font-size: 1.625rem;
