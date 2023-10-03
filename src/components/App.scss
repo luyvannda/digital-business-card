@@ -84,9 +84,8 @@ body {
   }
 
   .contact {
-    display: flex;
-    justify-content: space-around;
     margin: 1rem 0;
+    position: relative;
 
     .email-btn {
       background-color: $main-white;
@@ -95,8 +94,20 @@ body {
       border-radius: 10px;
       border: 2px solid $main-black;
       margin-right: 10px;
+      position: static;
+      display: inline-block;
+      cursor: pointer;
 
-      &::before {}
+      &:hover::before {
+        cursor: pointer;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+      }
 
       .email-icon {
         margin-right: 0.5rem;
@@ -107,9 +118,12 @@ body {
         color: $email-color;
         font-size: 0.875rem;
         font-weight: 500;
+        position: relative;
+        z-index: 1;
       }
-
     }
+
+
 
     .linkedin-btn {
       background-color: $main-blue;
