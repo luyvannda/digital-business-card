@@ -18,4 +18,4 @@ Acknowledgement:
 
 I am a free Scrimba student with no pro account. My special thanks to Cosmin Moldovan who uploaded the project template and challenge to his github for everyone to fork:
 
-https://github.com/cosminmoldovan/digital-business-card
+https://cosminmoldovan.github.io/digital-business-card/
