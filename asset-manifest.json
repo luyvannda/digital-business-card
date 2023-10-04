@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/digital-business-card/static/css/main.a94284ec.css",
-    "main.js": "/digital-business-card/static/js/main.3da854c7.js",
+    "main.css": "/digital-business-card/static/css/main.6c2b1d69.css",
+    "main.js": "/digital-business-card/static/js/main.90b6097a.js",
     "static/js/787.28cb0dcd.chunk.js": "/digital-business-card/static/js/787.28cb0dcd.chunk.js",
-    "static/media/profile-photo.jpg": "/digital-business-card/static/media/profile-photo.b53264c2bb58d5042777.jpg",
+    "static/media/profile-photo.jpg": "/digital-business-card/static/media/profile-photo.da8bf126c8375957eeba.jpg",
     "static/media/bg.jpg": "/digital-business-card/static/media/bg.92f3b9043cb9e88858a1.jpg",
     "static/media/inter-latin-ext-400-normal.woff": "/digital-business-card/static/media/inter-latin-ext-400-normal.3ccf133441ba225afa51.woff",
     "static/media/inter-latin-400-normal.woff": "/digital-business-card/static/media/inter-latin-400-normal.662f290710a57b8dfbbd.woff",
@@ -20,12 +20,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/digital-business-card/static/media/inter-greek-ext-400-normal.3f642a92b6e57b3a4b84.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/digital-business-card/static/media/inter-vietnamese-400-normal.789afb71d327988e2fc8.woff2",
     "index.html": "/digital-business-card/index.html",
-    "main.a94284ec.css.map": "/digital-business-card/static/css/main.a94284ec.css.map",
-    "main.3da854c7.js.map": "/digital-business-card/static/js/main.3da854c7.js.map",
+    "main.6c2b1d69.css.map": "/digital-business-card/static/css/main.6c2b1d69.css.map",
+    "main.90b6097a.js.map": "/digital-business-card/static/js/main.90b6097a.js.map",
     "787.28cb0dcd.chunk.js.map": "/digital-business-card/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a94284ec.css",
-    "static/js/main.3da854c7.js"
+    "static/css/main.6c2b1d69.css",
+    "static/js/main.90b6097a.js"
   ]
 }
