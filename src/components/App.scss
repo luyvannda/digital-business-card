@@ -3,7 +3,7 @@ $main-black: #2B283A;
 $main-orange: #F47D27;
 $email-color: #374151;
 $main-blue: #3464e8;
-
+$paragraph-color: #4A4E74;
 
 * {
   padding: 0;
@@ -43,7 +43,6 @@ body {
     opacity: 0.5;
     z-index: -1;
   }
-
 }
 
 .App {
@@ -84,7 +83,7 @@ body {
   }
 
   .contact {
-    margin: 1rem 0;
+    margin: 1.2rem 0 1.8rem 0;
 
     .email-btn {
       background-color: $main-white;
@@ -130,9 +129,33 @@ body {
         color: $main-white;
         font-size: 0.875rem;
         font-weight: 500;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        padding: 1rem 1.8rem;
+        margin: -1rem -1.8rem;
 
       }
     }
   }
+}
 
+.about-container,
+.interests {
+  margin: 0 2rem 1.5rem 2rem;
+
+  h3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.125rem;
+    color: $main-black;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    color: $paragraph-color;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }
