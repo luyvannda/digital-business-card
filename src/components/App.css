@@ -52,6 +52,7 @@ body::before {
   border-top-left-radius: 10px;
 }
 .info h3 {
+  margin-top: 1rem;
   font-size: 1.625rem;
   font-weight: 700;
   color: #2B283A;
