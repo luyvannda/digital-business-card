@@ -67,7 +67,6 @@ body::before {
 }
 .info .contact {
   margin: 1rem 0;
-  position: relative;
 }
 .info .contact .email-btn {
   background-color: #F5F5F5;
@@ -76,18 +75,6 @@ body::before {
   border-radius: 10px;
   border: 2px solid #2B283A;
   margin-right: 10px;
-  position: static;
-  display: inline-block;
-  cursor: pointer;
-}
-.info .contact .email-btn:hover::before {
-  cursor: pointer;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 .info .contact .email-btn .email-icon {
   margin-right: 0.5rem;
@@ -97,8 +84,11 @@ body::before {
   color: #374151;
   font-size: 0.875rem;
   font-weight: 500;
+  display: inline-block;
   position: relative;
   z-index: 1;
+  padding: 1rem 1.8rem;
+  margin: -1rem -1.8rem;
 }
 .info .contact .linkedin-btn {
   background-color: #3464e8;
