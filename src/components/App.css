@@ -113,22 +113,38 @@ body::before {
   margin: -1rem -1.8rem;
 }
 
-.about-container,
+.about,
 .interests {
   margin: 0 2rem 1.5rem 2rem;
 }
-.about-container h3,
+.about h3,
 .interests h3 {
   margin-bottom: 0.8rem;
   font-size: 1.125rem;
   color: #2B283A;
   font-weight: 700;
 }
-.about-container p,
+.about p,
 .interests p {
   font-size: 0.75rem;
   line-height: 1.2rem;
   color: #4A4E74;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.social {
+  height: 4.35rem;
+  background-color: #D6D3D8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.social a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgba(55, 65, 81, 0.5);
 }/*# sourceMappingURL=App.css.map */

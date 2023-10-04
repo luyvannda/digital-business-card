@@ -4,6 +4,7 @@ $main-orange: #F47D27;
 $email-color: #374151;
 $main-blue: #3464e8;
 $paragraph-color: #4A4E74;
+$social-bg-color: #D6D3D8;
 
 * {
   padding: 0;
@@ -140,7 +141,7 @@ body {
   }
 }
 
-.about-container,
+.about,
 .interests {
   margin: 0 2rem 1.5rem 2rem;
 
@@ -157,5 +158,22 @@ body {
     color: $paragraph-color;
     text-align: justify;
     text-justify: inter-word;
+  }
+}
+
+.social {
+  height: 4.35rem;
+  background-color: $social-bg-color;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgba($email-color, 0.5);
   }
 }
